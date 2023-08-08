@@ -1,0 +1,24 @@
+form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  flex-wrap: nowrap;
+}
+
+.control {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+}
+.lables {
+  margin-bottom: 10px;
+  font-size: larger;
+}
+input {
+  padding: 0.6rem 0;
+}
+.btn {
+  margin-top: 35px;
+}

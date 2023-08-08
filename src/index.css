@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Montserrat:wght@100&family=Roboto:ital,wght@0,100;0,300;0,400;1,100&family=Rubik:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Noto sans,sans-serif; 
+}
+
+body{
+    background: #272727;
+}
+section{
+  margin: 1rem auto;  
+  width: 80%;
+  max-width: 40rem;
+  text-align: center;
+  padding: 2rem;
+  background: #fff;
+}
+button{
+    font: inherit;
+    cursor: pointer;
+    border: 1px solid rgb(91, 4, 4);
+    padding: .7rem;
+    margin-right: 15px;
+    border-radius: 10px;
+    line-height: 1;
+    background: #500;
+    color: #fff;
+}
+button:hover ,button:active{
+    background:#6f0a888d;
+    border-color: #6f0a888d;
+}
